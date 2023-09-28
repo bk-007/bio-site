@@ -1,3 +1,2 @@
-![:D](https://github.com/bk-007/bio-site/blob/c516fa1671c24a033cb3799aef9a1a55ab329292/test.html)
 # Hello!
 This is my first site. Trying this out and updating frequently...stay tuned...
