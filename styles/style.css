@@ -45,7 +45,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 2vw; /* Adjust */
+  gap: 5vw; /* Adjust */
   font-size: medium;
 }
 
