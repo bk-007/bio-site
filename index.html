@@ -37,12 +37,13 @@
 <meta property="twitter:description" content="Welcome to my first site. Check it out!">
 <meta property="twitter:image" content="https://res.cloudinary.com/dlo6pjmqi/image/upload/v1695875546/b-animation_1_cjc1gv.gif">
 
-<script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.9.0/cdn/shoelace-autoloader.js"></script>
+
 
 <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.9.0/cdn/themes/dark.css"
 />
+<script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.9.0/cdn/shoelace-autoloader.js"></script>
 
 
 
@@ -50,6 +51,11 @@
   </head>
 
   <body>
+
+    <div id="loader" class="loader">
+        <lottie-player src="json\b-animation.json" background="transparent" speed="1" style="width: 100%; height: 100%;" loop autoplay></lottie-player>
+    </div>
+
     <main class="centered-content">
         <div class="lottie">
             <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
@@ -71,6 +77,15 @@
     <footer class="centered-content">
         <p>From Bryce, with ❤️</p>
     </footer>
+
+    <script>
+        window.addEventListener("load", function () {
+            setTimeout(function() {
+                const loader = document.getElementById("loader");
+                loader.style.display = "none"; // This will hide the loader
+            }, 3000); // Delay hiding for 3 seconds
+        });
+        </script>
   
     <script>
         var Webflow = Webflow || [];
