@@ -1,3 +1,16 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  z-index: 1; /* Lower than the loader */
+  position: relative; /* Needed for z-index to work */
+}
+
 .loader {
   position: fixed;
   display: flex;
@@ -9,17 +22,6 @@
   height: 100vh;
   background-color: black; /* Or any color you prefer */
   z-index: 9999; /* Ensures the loader is on top of everything else */
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 .centered-content {
