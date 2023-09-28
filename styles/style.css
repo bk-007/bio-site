@@ -22,7 +22,7 @@ body {
 
 .lottie {
   width: 100%;
-  max-width: 500px; /* Adjust */
+  max-width: 50%; /* Adjust */
   height: auto;
 }
 
@@ -30,7 +30,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 20px; /* Adjust */
+  gap: 2vw; /* Adjust */
   font-size: medium;
 }
 
