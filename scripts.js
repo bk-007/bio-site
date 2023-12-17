@@ -1,5 +1,3 @@
-var btcPath = "https://image.ibb.co/f4nCHS/btcLogo.jpg";
-
 var sketch = function(p){
 
   var containerWidth = $('#container-p5').width();
