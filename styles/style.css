@@ -1,4 +1,16 @@
-body {
+@import url('https://fonts.googleapis.com/css?family=Raleway:700|Roboto:300');
+
+
+
+body,html {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', serif;
+  background: #000529;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,41 +32,53 @@ body {
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: black; /* Or any color you prefer */
+  background-color: #000529; /* Or any color you prefer */
   z-index: 9999; /* Ensures the loader is on top of everything else */
 }
 
-.centered-content {
+.hero {
   display: flex;
-  flex-direction: column;
+  height: 100%;
   align-items: center;
-  justify-content: center;
-  width: 100%;
-  padding: 20px;
-  box-sizing: border-box;
-  font-size: medium;
+  color: white;
 }
 
-.lottie {
+.hero-content {
   width: 100%;
-  max-width: 50%; /* Adjust */
-  height: auto;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px 60px 0;
 }
 
-.buttons {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 5vw; /* Adjust */
-  font-size: medium;
+h1 {
+  font-family: 'Ralewey', sans-serif;
+  color: white;
+  font-size: 6vw;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  z-index: 10;
+  margin-bottom: 32px;
+  
+  span {
+    display: inline-block;
+  }
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
+h2 {
+  font-size: 20px;
+  letter-spacing: 0.02em;
+}
+
+#container-p5 {
+  position: absolute;
   width: 100%;
-  text-align: center;
-  padding: 20px;
-  box-sizing: border-box;
-  font-size: small;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 0;
+}
+
+.highlight {
+  color: #2746ff;
 }
