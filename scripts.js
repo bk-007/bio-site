@@ -192,7 +192,7 @@ var sketch = function(p){
     p.createCanvas(containerWidth, containerHeight, 'WEBGL');
     p.pixelDensity(1);
     p.background(bgColor);
-    var btc = p.loadImage(btcPath, function(img) {
+    var btc = p.loadImage('images/btcLogo.jpg', function(img) {
       // p.image(img, 0, 0);
       btc.resize(smallSize,smallSize);
       btc.loadPixels();
