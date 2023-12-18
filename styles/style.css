@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:700|Roboto:300');
 
-
-
 body,html {
   position: relative;
   width: 100%;
@@ -24,17 +22,17 @@ body,html {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 30px 60px 0;
+  padding: 0 2vw 4vw 0; /* Adjusted padding to be relative to viewport width */
 }
 
 h1 {
   font-family: 'Ralewey', sans-serif;
   color: white;
-  font-size: 6vw;
+  font-size: 6vw; /* Already relative to viewport width */
   line-height: 1;
   letter-spacing: -0.05em;
   z-index: 10;
-  margin-bottom: 32px;
+  margin-bottom: 2vw; /* Adjusted margin to be relative to viewport width */
   
   span {
     display: inline-block;
@@ -42,7 +40,7 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 1.5vw; /* Adjusted font size to be relative to viewport width */
   letter-spacing: 0.02em;
 }
 
