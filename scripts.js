@@ -1,4 +1,7 @@
-var btcPath = "https://image.ibb.co/f4nCHS/btcLogo.jpg";
+let img;
+function preload() {
+  img = loadImage('images/btcLogo.jpg');
+}
 var sketch = function(p){
 
   var containerWidth = $('#container-p5').width();
