@@ -4,7 +4,7 @@ const cursorAnimation = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: true,
   autoplay: true,
-  path: 'cursor-animation.json' // Path to your cursor animation JSON file
+  path: 'json/plane-pointer.json' // Path to your cursor animation JSON file
 });
 
 // Change background color on click
