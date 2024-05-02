@@ -1,6 +1,6 @@
-# Hello! I'm Bryce.
+# Hey I'm Bryce! Thanks for Stopping By!
 <br>This was for my first site. I use it to experiment with different AI models and web tech. It changes often and I almost never save pics or anything so like RIP.
-<br> ### Below is a list of some of the stuff I've used or learned a bit to make this masterpiece:
+<br>Below is a list of some of the stuff I've used or learned a bit to make this masterpiece:
 <br>- ChatGPT
 <br>- Gemini
 <br>- HTML
@@ -20,7 +20,7 @@
 <br>- Learning
 <br>- Has to be a resume... 
 <br>
-<br> ### What I'm Learning:
+<br>What I'm Learning:
 <br>- Life
 <br>- Meditation
 <br>- Mindfulness
